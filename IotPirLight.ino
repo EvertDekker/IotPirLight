@@ -1,6 +1,6 @@
 /*
-    Gerneric Esp8266 Module: Flash Mode: QIO, Flash Frequency: 40MHz, CPU Frequency: 80MHz
-    Flash Size: 4M (1M SPIFFS), Debug Port: Disabled, Debug Level: None,  Reset Method: ck
+    Gerneric Esp8285 Module: CPU Frequency: 80MHz
+    Flash Size: 1M (512K SPIFFS)
 */
 
 #include <ESP8266WiFi.h>
