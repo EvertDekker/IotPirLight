@@ -119,6 +119,7 @@ void loop() {
     for (int i = 1; i < 30; i++) { //waiting 30 seconds for OTA
       DEBUG_PRINTLN("Waiting for OTA");
       ArduinoOTA.handle();
+      delay(1000);
     }
     DEBUG_PRINTLN("No OTA received, back to normal");
     nodestatus = 0;
